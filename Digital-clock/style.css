@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box; /*for the element to get a specific padding and 
+                               border as container */
+}
+.clock-box{
+    width: 750px;
+    height: 300px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    border-radius: 10px;
+    background: #000;
+    
+
+}
+#showDate{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 63px;
+    color: aqua;
+}
+.showTime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 144px;
+   color: #fff;
+}
